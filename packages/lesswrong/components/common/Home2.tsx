@@ -8,7 +8,6 @@ const Home2 = () => {
   return (
       <AnalyticsContext pageContext="homePage">
         <React.Fragment>
-          <RecommendationsAndCurated configName="frontpage" />
           <AnalyticsInViewTracker
               eventProps={{inViewType: "latestPosts"}}
               observerProps={{threshold:[0, 0.5, 1]}}

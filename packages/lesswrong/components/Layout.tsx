@@ -38,6 +38,7 @@ const standaloneNavMenuRouteNames: Record<string,string[]> = {
   ],
   'AlignmentForum': ['alignment.home', 'sequencesHome', 'allPosts', 'questions', 'Shortform'],
   'EAForum': ['home', 'allPosts', 'questions', 'Community', 'Shortform', 'eaSequencesHome'],
+  'ProgressForum': ['home', 'allPosts', 'tags'],
 }
 
 const styles = (theme: ThemeType): JssStyles => ({

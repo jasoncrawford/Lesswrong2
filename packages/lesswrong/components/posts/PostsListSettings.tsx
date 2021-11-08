@@ -66,6 +66,20 @@ const FILTERS_ALL = {
       label: "Questions",
       tooltip: "Open questions and answers, ranging from newcomer questions to important unsolved scientific problems."
     },
+  },
+  "ProgressForum": {
+    all: {
+      label: "All Posts",
+      tooltip: "Includes all posts"
+    },
+    questions: {
+      label: "Questions",
+      tooltip: "Open questions and answers, ranging from newbie-questions to important unsolved scientific problems."
+    },
+    meta: {
+      label: "Meta",
+      tooltip: "Posts relating to Progress Forum itself"
+    },
   }
 }
 const FILTERS = FILTERS_ALL[forumTypeSetting.get()]

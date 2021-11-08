@@ -321,6 +321,34 @@ export const menuTabs: Record<ForumTypeString,Array<MenuTab>> = {
       link: '/contact',
       subItem: true,
     }
+  ],
+  ProgressForum: [
+    {
+      id: 'home',
+      title: 'Home',
+      link: '/',
+      iconComponent: Home,
+      tooltip: 'See recent posts on progress studies, plus recent activity from all across the Forum.',
+      showOnMobileStandalone: true,
+      showOnCompressed: true,
+    }, {
+      id: 'allPosts',
+      title: 'All Posts',
+      link: '/allPosts',
+      iconComponent: Sort,
+      tooltip: 'See all posts, filtered and sorted by date, karma, and more.',
+      showOnMobileStandalone: true,
+      showOnCompressed: true,
+    }, {
+      id: 'tags',
+      title: 'Tags',
+      mobileTitle: 'Tags',
+      link: '/tags/all',
+      iconComponent: LocalOffer,
+      tooltip: 'See posts tagged by their subject matter',
+      showOnMobileStandalone: true,
+      showOnCompressed: true,
+    }
   ]
 }
 

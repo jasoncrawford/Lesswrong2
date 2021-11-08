@@ -208,6 +208,53 @@ export const contentTypes: Record<ForumTypeString,Record<ContentTypeString,Conte
       Icon: TagIcon,
       linkTarget: '/tags/all',
     },
+  },
+  ProgressForum: {
+    frontpage: {
+      tooltipTitle: 'Frontpage Post',
+      tooltipBody: <React.Fragment>
+        <p><b>Frontpage Posts</b> are promoted by moderators based on:</p>
+        <ul>
+          <li>Usefulness, novelty, relevance</li>
+          <li>Timeless content (minimizing reference to current events)</li>
+          <li>Aiming to explain, rather than persuade</li>
+        </ul>
+      </React.Fragment>,
+      Icon: HomeIcon
+    },
+    personal: {
+      tooltipTitle: 'Personal Blogpost',
+      tooltipBody: <React.Fragment>
+        <div><b>Personal Blogpost</b></div><br/>
+        <div>
+          Members can write whatever they want on their personal blog. Personal
+          blogposts are a good fit for:
+        </div>
+        <ul>
+          <li>Niche topics</li>
+          <li>Meta-discussion of Progress Forum (site features, interpersonal community dynamics)</li>
+          <li>Topics that are difficult to discuss rationally</li>
+          <li>Personal ramblings</li>
+        </ul>
+      </React.Fragment>,
+      Icon: PersonIcon
+    },
+    curated: {
+      tooltiptitle: 'Curated Post',
+      tooltipBody: <div>
+        The best 2-3 posts each week, selected by the moderation team. Curated
+        posts are featured at the top of the front page and emailed to subscribers.
+      </div>,
+      Icon: StarIcon,
+    },
+    shortform: {
+      tooltipTitle: 'Shortform',
+      tooltipBody: <div>
+        Writing that is short in length, or written in a short amount of time.
+        Off-the-cuff thoughts, brainstorming, early stage drafts, etc.
+      </div>,
+      Icon: SubjectIcon
+    }
   }
 }
 

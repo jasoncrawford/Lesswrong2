@@ -148,6 +148,10 @@ const forumDomainWhitelist: Record<string, Array<string>> = {
     'ea.greaterwrong.com',
     'localhost:3000',
     'localhost:8300'
+  ],
+  ProgressForum: [
+    'localhost:3000',
+    'localhost:8300'
   ]
 }
 

@@ -64,6 +64,7 @@ const forumIncludeExtra = {
   LessWrong: {humanName: 'Personal Blogposts', machineName: 'includePersonal'},
   AlignmentForum: {humanName: 'Personal Blogposts', machineName: 'includePersonal'},
   EAForum: {humanName: 'Community', machineName: 'includeMeta'},
+  ProgressForum: {humanName: 'Personal Blogposts', machineName: 'includePersonal'},
 }
 const includeExtra = forumIncludeExtra[forumTypeSetting.get()]
 

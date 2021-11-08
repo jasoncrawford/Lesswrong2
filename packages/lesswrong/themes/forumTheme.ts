@@ -11,6 +11,7 @@ switch (forumTypeSetting.get()) {
   case 'EAForum':
     forumTheme = eaTheme
     break
+  case 'ProgressForum':
   default:
     forumTheme = lwTheme
 }

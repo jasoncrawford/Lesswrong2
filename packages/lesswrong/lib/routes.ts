@@ -750,6 +750,7 @@ switch (forumTypeSetting.get()) {
       },
     );
     break
+  case 'ProgressForum':
   default:
     // Default is Vanilla LW
     addRoute(

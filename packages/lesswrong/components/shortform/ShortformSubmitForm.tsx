@@ -25,6 +25,10 @@ const forumHintText = {
   EAForum: <div>
     <div>Write your brief or quickly written post here.</div>
     <div>Exploratory, draft-stage, rough, and off-the-cuff thoughts are all welcome on Shortform.</div>
+  </div>,
+  ProgressForum: <div>
+    <div>Write your thoughts here! What have you been thinking about?</div>
+    <div>Exploratory, draft-stage, rough, and rambly thoughts are all welcome on Shortform.</div>
   </div>
 }
 
