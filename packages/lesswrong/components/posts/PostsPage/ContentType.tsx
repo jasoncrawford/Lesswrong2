@@ -220,6 +220,7 @@ export const contentTypes: Record<ForumTypeString,Record<ContentTypeString,Conte
           <li>Aiming to explain, rather than persuade</li>
         </ul>
       </React.Fragment>,
+      linkTarget: null,
       Icon: HomeIcon
     },
     personal: {
@@ -237,14 +238,16 @@ export const contentTypes: Record<ForumTypeString,Record<ContentTypeString,Conte
           <li>Personal ramblings</li>
         </ul>
       </React.Fragment>,
+      linkTarget: null,
       Icon: PersonIcon
     },
     curated: {
-      tooltiptitle: 'Curated Post',
+      tooltipTitle: 'Curated Post',
       tooltipBody: <div>
         The best 2-3 posts each week, selected by the moderation team. Curated
         posts are featured at the top of the front page and emailed to subscribers.
       </div>,
+      linkTarget: null,
       Icon: StarIcon,
     },
     shortform: {
@@ -253,7 +256,17 @@ export const contentTypes: Record<ForumTypeString,Record<ContentTypeString,Conte
         Writing that is short in length, or written in a short amount of time.
         Off-the-cuff thoughts, brainstorming, early stage drafts, etc.
       </div>,
+      linkTarget: null,
       Icon: SubjectIcon
+    },
+    tags: {
+      tooltipTitle: 'Tag/Wiki Edits and Discussion',
+      tooltipBody: <div>
+        Tag and wiki pages, which organize posts and concepts in a more
+        durable format.
+      </div>,
+      Icon: TagIcon,
+      linkTarget: '/tags/all',
     }
   }
 }

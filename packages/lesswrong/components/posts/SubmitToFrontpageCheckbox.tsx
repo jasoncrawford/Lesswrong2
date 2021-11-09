@@ -24,7 +24,7 @@ const defaultTooltipLWAF = ({classes}: {classes: ClassesType}) => <div className
 const forumDefaultTooltip = {
   LessWrong: defaultTooltipLWAF,
   AlignmentForum: defaultTooltipLWAF,
-  EAForum: () => "Uncheck this box if you want your post to stay on your personal blog."
+  EAForum: () => "Uncheck this box if you want your post to stay on your personal blog.",
   ProgressForum: () => "Uncheck this box if you want your post to stay on your personal blog."
 }
 
